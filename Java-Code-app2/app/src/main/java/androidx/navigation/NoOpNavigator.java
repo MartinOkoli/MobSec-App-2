@@ -1,0 +1,23 @@
+package androidx.navigation;
+
+import android.os.Bundle;
+import androidx.navigation.Navigator;
+
+@Navigator.Name("NoOp")
+/* loaded from: C:\Users\MaOk\Desktop\ADB\platform-tools-latest-windows\platform-tools\app-source3\base\smali\androidx\navigation\NoOpNavigator.smali */
+public class NoOpNavigator extends Navigator<NavDestination> {
+    @Override // androidx.navigation.Navigator
+    public NavDestination createDestination() {
+        return new NavDestination(this);
+    }
+
+    @Override // androidx.navigation.Navigator
+    public NavDestination navigate(NavDestination destination, Bundle args, NavOptions navOptions, Navigator.Extras navigatorExtras) {
+        return destination;
+    }
+
+    @Override // androidx.navigation.Navigator
+    public boolean popBackStack() {
+        return true;
+    }
+}

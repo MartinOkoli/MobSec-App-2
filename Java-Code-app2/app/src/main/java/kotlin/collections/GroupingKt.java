@@ -1,0 +1,10 @@
+package kotlin.collections;
+
+import kotlin.Metadata;
+
+@Metadata(bv = {1, 0, 3}, d1 = {"kotlin/collections/GroupingKt__GroupingJVMKt", "kotlin/collections/GroupingKt__GroupingKt"}, k = 4, mv = {1, 4, 1}, xi = 1)
+/* loaded from: C:\Users\MaOk\Desktop\ADB\platform-tools-latest-windows\platform-tools\app-source3\base\smali\kotlin\collections\GroupingKt.smali */
+public final class GroupingKt extends GroupingKt__GroupingKt {
+    private GroupingKt() {
+    }
+}
